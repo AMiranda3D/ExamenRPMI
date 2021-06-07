@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- ENLACES LIBRERIAS -->
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
  
     <title>Examen</title>
 </head>
@@ -27,13 +29,23 @@
         <!-- MENU -->
         <fieldset>
             <legend>Personas</legend>
+            <div class="controlgroup">
+                <select name="personas" id="personas">
+                    <option value="Camilo">Camilo</option>
+                    <option value="Paloma">Paloma</option>
+                    <option value="Paco">Paco</option>
+                </select>
 
-            <!-- Escribe aquí el menú del ejercicio -->
-
+                <br><br>
+                <!-- Escribe aquí el menú del ejercicio -->
+                <button id="invocar" >Invocar</button>
             </div>
         </fieldset>
     </div>
 
     <!-- ENLACES SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

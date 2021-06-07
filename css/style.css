@@ -9,7 +9,7 @@ body{
 #interfaz{
     background-color: aliceblue;
     height: 600px;
-    width: 80%;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,4 +34,8 @@ fieldset{
     width: 90%;
 }
 
+#personas,#invocar {
+    width: 100%;
+    text-align: left;
+}
 /*  */
